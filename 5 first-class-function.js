@@ -1,5 +1,5 @@
 // first class function
-// first class fuction is feature of javascript in this feature you can treat function like any other value you can assigne to a variable , passed as argument etc.
+// first class fuction is feature of javascript in this feature you can treat function like any other value you can assign to a variable , passed as argument etc.
 
 //ex 1:
 // let fun = function () {
@@ -19,13 +19,13 @@
 //     return greet(name);
 // }
 
-// console.log(say_hello("shahrukh",greeting));
+// console.log(say_hello("shahrukh",greeting)); //function passed as argument
 
 // ex 3:
 
 function greet(name) {
   return () => {
-    return `hello ${name}`;
+    return `hello ${name}`; //return a function
   };
 }
 
