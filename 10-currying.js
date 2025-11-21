@@ -1,7 +1,5 @@
 // Currying is a technique of transforming a function that takes multiple arguments into a sequence of functions, where each function takes only one argument and returns another function until all arguments are provided.
 
-console.log(sum(12, 21, 21)); // 54
-
 // currying function :
 
 // first way to declare :
@@ -31,3 +29,5 @@ console.log(x(5)(10)(5)); // 250
 function sum(a, b, c) {
   return a + b + c;
 }
+
+console.log(sum(12, 21, 21)); // 54
