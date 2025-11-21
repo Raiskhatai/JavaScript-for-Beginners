@@ -17,3 +17,4 @@ let newstr = str.reduce((accumulator, value) => {
 }, "");
 
 console.log(newstr);
+ 
