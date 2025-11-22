@@ -32,7 +32,7 @@ function compostion(fn1, fn2) {
 
 let answer = compostion(square, add);
 let res = answer(2, 3);
-console.log(res);           25
+console.log(res);          // 25
 
 // ex:3=>
 // let answer = compostion(cube, add);
